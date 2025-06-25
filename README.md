@@ -1,36 +1,46 @@
-# HUNT Suite Proxy Extensions 
+# HUNT
+ Suite Proxy Extensions  
+		![HUNT Logo](/images/logo.png)
 
-![HUNT Logo](/images/logo.png)
+What Is HUNT   
+			Suite:
+        
+								
+	- Collection of:
+	-  Burp Suite Pro/Free and
+    -  OWASP ZAP extensions.
 
-### What is HUNT Suite?
-* HUNT Suite is a collection of Burp Suite Pro/Free and OWASP ZAP extensions.
-* Identifies common parameters vulnerable to certain vulnerability classes (Burp Suite Pro and OWASP ZAP). 
-* Organize testing methodologies (Burp Suite Pro and Free).
+Identifies common parameters vulnerable to certain vulnerability classes
+(Burp Suite Pro and OWASP ZAP).
 
-### HUNT Parameter Scanner - Vulnerability Classes
+    Organize:
+testing methodologies 
+(Burp Suite Pro and Free).
 
-* SQL Injection
-* Local/Remote File Inclusion & Path Traversal
-* Server Side Request Forgery & Open Redirect
-* OS Command Injection
-* Insecure Direct Object Reference
-* Server Side Template Injection
-* Logic & Debug Parameters
-* ~~Cross Site Scripting~~
-* ~~External Entity Injection~~
+### HUNT
+### Parameter
+Scanner-Vulnerability Classes
+
+
+SQL Injection
+----|
+ Local/Remote File Inclusion &
+|	  Path Traversal
+| Server Side Request Forgery & 
+| Open Redirect
+| OS Command Injection
+| Insecure Direct Object Reference
+| Server Side
+| Template Injection
+|  Logic & Debug Parameters
+| * ~~Cross Site Scripting~~
+| ~~External Entity Injection~~ |
 * ~~Malicious File Upload~~
+|-|
 
-
-### TODO
-* ~~Change regex for parameter names to include user_id instead of just id~~
-* ~~Search in scanner window~~
-* ~~Highlight param in scanner window~~
-* Implement script name checking, REST URL support, JSON & XML post-body params.
-* Support normal convention of Request tab: Raw, Params, Headers, Hex sub-tabs inside scanner
-* Add more methodology JSON files:
-  * ~~Web Application Hacker's Handbook~~
-  * PCI
-  * HIPAA
+### TODD  ~~Change regex for parameter names to include user_id instead of just id~~~~Search in scanner window~~~~Highlight param in scanner window~~Implement script name checking, REST URL support, JSON & XML post-body params. Support normal convention of Request tab: Raw, Params, Headers, Hex sub-tabs inside scanner Add more methodology JSON files:read~~Web Application Hacker's Handbook~~
+ * PCI
+ * HIPAA
   * CREST
   * OWASP Top Ten
   * OWASP Application Security Verification Standard
